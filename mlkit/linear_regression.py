@@ -1,11 +1,11 @@
 import numpy as np
 
-class LinearRegression:
+class SimplestLinearRegression:
     def __init__(self):
         self.m = None  # slope
         self.b = None  # intercept
 
-    def fit(self, x, y):
+    def fit(self, x, y) -> None:
         x = np.array(x)
         y = np.array(y)
 
